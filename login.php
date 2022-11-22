@@ -78,13 +78,13 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, email,clave, cargo FROM u
    <!--  <img class="wave"src="../assets/img/wave.png" alt="">  -->
     <div class="contenedor">
     <div class="img">
-    <img src="assets/img/bg.svg" alt="">
+    <img src="assets/img/background.jpg" alt="">
     </div>
     <div class="contenido-login">
 
     <form autocomplete="off" method="POST"  role="form">
 
-    <img src="assets/img/logo.png" alt="">
+    <img src="assets/img/logo_salupet.jpg" alt="">
     <h2>Login</h2>
     <?php
     if(isset($errMsg)){
