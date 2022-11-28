@@ -634,10 +634,10 @@ function inactivo(codpaci)
 
 	 <?php
 if(isset($_POST["agregar"])){
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "proyecto_final";
+$servername = "bg1osficxql1csllenea-mysql.services.clever-cloud.com";
+$username = "u3ypiypmygdjaotf";
+$password = "AgaySJkNqv7hpOakVdf2";
+$dbname = "bg1osficxql1csllenea";
 
 // Creamos la conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -15,7 +15,7 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="form-group form-group-default">
-								<label>CURP</label>
+								<label>DNI</label>
 								<input name="dnipa" type="text" required class="form-control" maxlength="8" placeholder="Ingrese CURP" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
 							</div>
 						</div>

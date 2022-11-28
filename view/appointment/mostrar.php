@@ -107,11 +107,11 @@
 													<img src="../assets/img/jm_denis.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
-													<span class="subject">Jimmy Denis</span>
+													<span class="subject"></span>
 													<span class="block">
-														How are you ?
+														
 													</span>
-													<span class="time">5 minutes ago</span> 
+													<span class="time"></span> 
 												</div>
 											</a>
 											<a href="#">
@@ -119,11 +119,11 @@
 													<img src="../assets/img/chadengle.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
-													<span class="subject">Chad</span>
+													<span class="subject"></span>
 													<span class="block">
-														Ok, Thanks !
+													
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time"></span> 
 												</div>
 											</a>
 											<a href="#">
@@ -131,11 +131,11 @@
 													<img src="../assets/img/mlane.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
-													<span class="subject">Jhon Doe</span>
+													<span class="subject"></span>
 													<span class="block">
-														Ready for the meeting today...
+														
 													</span>
-													<span class="time">12 minutes ago</span> 
+													<span class="time"></span> 
 												</div>
 											</a>
 											<a href="#">
@@ -143,18 +143,18 @@
 													<img src="../assets/img/talha.jpg" alt="Img Profile">
 												</div>
 												<div class="notif-content">
-													<span class="subject">Talha</span>
+													<span class="subject"></span>
 													<span class="block">
-														Hi, Apa Kabar ?
+														
 													</span>
-													<span class="time">17 minutes ago</span> 
+													<span class="time"></span> 
 												</div>
 											</a>
 										</div>
 									</div>
 								</li>
 								<li>
-									<a class="see-all" href="javascript:void(0);">See all messages<i class="fa fa-angle-right"></i> </a>
+									<a class="see-all" href="javascript:void(0);"><i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
 						</li>
@@ -165,13 +165,13 @@
 							</a>
 							<ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
 								<li>
-									<div class="dropdown-title">You have 0 new notification</div>
+									<div class="dropdown-title"></div>
 								</li>
 								<li>
 									
 								</li>
 								<li>
-									<a class="see-all" href="javascript:void(0);">See all notifications<i class="fa fa-angle-right"></i> </a>
+									<a class="see-all" href="javascript:void(0);"><i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
 						</li>
@@ -629,10 +629,10 @@ function inactivo(codcit)
 
 <?php
 if(isset($_POST["agregar"])){
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "proyecto_final";
+$servername = "bg1osficxql1csllenea-mysql.services.clever-cloud.com";
+$username = "u3ypiypmygdjaotf";
+$password = "AgaySJkNqv7hpOakVdf2";
+$dbname = "bg1osficxql1csllenea";
 
 // Creamos la conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

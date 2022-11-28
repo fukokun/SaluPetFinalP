@@ -19,7 +19,7 @@ class Modelo{
 
   public function __construct(){
       $this->doctor=array();
-      $this->db=new PDO('mysql:host=localhost;dbname=proyecto_final',"root","");
+      $this->db=new PDO('mysql:host=bg1osficxql1csllenea-mysql.services.clever-cloud.com;dbname=bg1osficxql1csllenea',"u3ypiypmygdjaotf","AgaySJkNqv7hpOakVdf2");
   }
   public function mostrar($tabla,$condicion){
       $consulta="SELECT doctor.coddoc, doctor.dnidoc, doctor.nomdoc,doctor.apedoc,specialty.nombrees, doctor.sexo, doctor.telefo, doctor.fechanaci, doctor.correo, doctor.naciona,doctor.estado, doctor.fecha_create FROM doctor INNER JOIN specialty ON doctor.codespe = specialty.codespe";

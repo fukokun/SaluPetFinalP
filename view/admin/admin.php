@@ -377,7 +377,7 @@
 									<div class="card-title fw-mediumbold">Nuevos pacientes</div>
 									<?php
 function connect(){
-return new mysqli("localhost","root","","proyecto_final");
+return new mysqli("bg1osficxql1csllenea-mysql.services.clever-cloud.com","u3ypiypmygdjaotf","AgaySJkNqv7hpOakVdf2","bg1osficxql1csllenea");
 }
 $con = connect();
 $sql = "SELECT * FROM customers   ORDER BY apellidop ASC LIMIT 5";
